@@ -5,5 +5,6 @@ public class formatPresc {
         double b = sc.nextDouble();
         System.out.format("%.2f", b);
         System.out.println();
+        sc.close();
     }
 }

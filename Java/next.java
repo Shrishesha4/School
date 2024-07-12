@@ -6,6 +6,6 @@ public class next {
         String inputString = sc.next();
         char firstCharacter = inputString.charAt(0);
         System.out.println("The first character of the string is: " + firstCharacter);
-
+        sc.close();
     }
 }

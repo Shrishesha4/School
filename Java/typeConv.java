@@ -5,6 +5,6 @@ public class typeConv {
         int a = sc.nextInt();
         double b = a;
         System.out.println(b);
-        
+        sc.close();
     }
 }

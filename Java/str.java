@@ -5,5 +5,7 @@ public class str {
         System.out.print("Enter a string: ");
         String userInput = sc.nextLine();
         System.out.println("String entered is: " + userInput);
+        sc.close();
     }
+    
 }

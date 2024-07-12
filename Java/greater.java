@@ -10,5 +10,6 @@ public class greater {
         } else {
             System.out.println(num2 + " is greater");
         }
+        sc.close();
     }
 }

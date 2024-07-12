@@ -8,5 +8,6 @@ public class mathFn {
         int x = sc.nextInt();
         System.out.println(a + " power " + x + " is ");
         System.out.println(Math.pow(a,x));
+        sc.close();
     }
 }
