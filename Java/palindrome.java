@@ -16,7 +16,6 @@ public class palindrome {
         } else {
             System.out.println(t + " is not a palindrome number.");
         }
-        System.out.println(rev);
         sc.close();
     }
 }
