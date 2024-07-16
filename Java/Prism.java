@@ -5,6 +5,7 @@ public class Prism {
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
         sc.close();
+        System.out.println("Using '*': ");
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
@@ -15,7 +16,7 @@ public class Prism {
             System.out.println();
         }
         System.out.println();
-        System.out.println("Using i: ");
+        System.out.println("\nUsing i: ");
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");

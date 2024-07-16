@@ -12,14 +12,14 @@ public class upRightTri {
             }
             System.out.println();
         }
-        System.out.println("Using i: ");
+        System.out.println("\nUsing i: ");
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(i);
             }
             System.out.println();
         }
-        System.out.println("Using j: ");
+        System.out.println("\nUsing j: ");
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(j);

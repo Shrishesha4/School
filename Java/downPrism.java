@@ -5,23 +5,24 @@ public class downPrism {
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
         sc.close();
+        System.out.println("Using '*': ");
         for (int i = n; i >= 1; i--) {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
-            for (int j = 1; j <= 2 * i - 1; j++) {
+            for (int j = 1; j <= 2 * i -1; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
         System.out.println();
-        System.out.println("Using i: ");
+        System.out.println("\nUsing i: ");
         for (int i = n; i >= 1; i--) {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
             for (int j = 1; j <= 2 * i - 1; j++) {
-                System.out.print("*");
+                System.out.print(i);
             }
             System.out.println();
         }
