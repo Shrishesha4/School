@@ -6,7 +6,7 @@ public class a1 {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-
+        sc.close();
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == arr[i + 1]) {
                 arr[i] = arr[i];
