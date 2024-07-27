@@ -11,8 +11,8 @@ public class a2 {
     }
 
     void printTable(int[] numbers) {
-        for (int number : numbers) {
-            printTable(number);
+        for (int n = 0; n < 3; n++) {
+            printTable(n);
         }
     }
 
