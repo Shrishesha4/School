@@ -1,4 +1,4 @@
-
+// Write a java program to calculate aggregate, distinction, first division, second division, third division, fail in a class. (use if else conditions)
 import java.util.*;
 class Details {
 
