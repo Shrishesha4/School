@@ -8,9 +8,17 @@ class person {
         y = Income;
         z = Age;
     }
+
+    void p () {
+        System.out.println("s");
+    }
 }
 
 class income extends person{
+
+    void p () {
+        System.out.println("s");
+    }
 
     void getTax(double x){
         if(y >= 250000 && y <= 500000){
@@ -52,5 +60,6 @@ public class tax {
         income obj = new income();
         obj.getDetails(Name, Age, Income);
         obj.getTax(Income);
+        obj.p();
     }
 }

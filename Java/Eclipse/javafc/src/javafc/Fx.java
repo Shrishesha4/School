@@ -1,0 +1,5 @@
+package javafc;
+
+class Fx {
+
+}
