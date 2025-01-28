@@ -1,0 +1,30 @@
+# Xcode
+*.pbxuser
+!default.pbxproj
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.xccheckout
+*.xcworkspace
+*.xcscheme
+
+
+# macOS
+*.DS_Store
+Thumbnails
+
+
+# Linux
+.directory
+.DS_Store
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.log
+*.tmp
+*.bak
+*.old
+*.swp
