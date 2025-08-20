@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// This program finds the smallest element in an array
 int main()
 {
     int a[100], n, i, min;
